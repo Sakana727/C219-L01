@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" type="text/css" href="navbar.css">
     <title></title>
     <style>
         body {
@@ -31,6 +31,18 @@
             padding: 20px;
             border-radius: 10px;
         }
+
+        /* Style for the text at the bottom right */
+        .bottom-text {
+            position: absolute;
+            bottom: 100px;
+            right: 10px;
+            font-size: 16px;
+            color: #333;
+            background-color: white; /* Add a white background */
+            padding: 5px 10px; /* Add padding for shape */
+            border-radius: 5px; /* Add rounded corners */
+        }
     </style>
 </head>
 <body>
@@ -47,6 +59,9 @@
             <p>Location: Yishun avenue 10 level 5 636463</p>
         </div>
         
+        <!-- Name of Recognition -->
+        <div class="bottom-text">Done by: Benedict</div>
+
         <!-- Bottom Nav -->
         <div class="bottom-navbar">
             <a href="index.html">Homepage</a>
