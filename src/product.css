@@ -16,8 +16,8 @@ body {
 }
 
 .product-image {
-    max-width: 150px;
-    max-height: 200px;
+    max-width: auto;
+    max-height: 150px;
 }
 
 .product-title {
